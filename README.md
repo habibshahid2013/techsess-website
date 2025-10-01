@@ -5,6 +5,7 @@ A modern, responsive personal brand website for Hassan Shahid, focused on empowe
 ## 🚀 Live Demo
 
 **Development Server:** `http://localhost:3000`  
+**Live Production:** https://techsess-website-q6h8rpwjf-habibshahid2013s-projects.vercel.app  
 **GitHub Repository:** [https://github.com/habibshahid2013/techsess-website](https://github.com/habibshahid2013/techsess-website)
 
 ## 🎯 Project Overview
