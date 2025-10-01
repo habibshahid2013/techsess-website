@@ -1,36 +1,171 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Tech-sess Website
 
-## Getting Started
+A modern, responsive personal brand website for Hassan Shahid, focused on empowering diversity in tech through advocacy, education, and strategic partnerships.
 
-First, run the development server:
+## 🚀 Live Demo
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+**Development Server:** `http://localhost:3000`  
+**GitHub Repository:** [https://github.com/habibshahid2013/techsess-website](https://github.com/habibshahid2013/techsess-website)
+
+## 🎯 Project Overview
+
+Tech-sess is a personal brand website designed to:
+- Establish Hassan as a leading voice in tech diversity advocacy
+- Build a community of diverse tech professionals
+- Enable consultation bookings and service inquiries
+- Showcase educational programs and partnership opportunities
+
+## ✨ Features
+
+### ✅ Completed
+- **Modern Design System** - Custom electric blue theme with professional typography
+- **Responsive Homepage** - Mobile-first design with smooth animations
+- **Interactive Components** - Animated stats, hover effects, and scroll-triggered animations
+- **SEO Optimized** - Proper metadata, Open Graph, and Twitter cards
+- **Accessibility** - ARIA labels, keyboard navigation, and semantic HTML
+- **Performance** - Optimized images, lazy loading, and fast load times
+
+### 🏗️ Homepage Sections
+1. **Hero Section** - Compelling introduction with clear CTAs
+2. **Stats Section** - Animated counters showing impact metrics
+3. **Mission Section** - Personal story and brand mission
+4. **Services Preview** - Overview of consulting and educational offerings
+5. **Community CTA** - Email signup with success animations
+
+### 🎨 Design System
+- **Colors:** Electric Blue (#007BFF), Deep Charcoal (#111111), Accent Yellow (#FFD700)
+- **Typography:** Poppins (headings), Inter (body text)
+- **Animations:** Framer Motion with scroll-triggered effects
+- **Components:** shadcn/ui with custom styling
+
+## 🛠️ Tech Stack
+
+- **Framework:** Next.js 14 (App Router)
+- **Language:** TypeScript
+- **Styling:** Tailwind CSS + Custom Design Tokens
+- **UI Components:** shadcn/ui + Radix UI
+- **Animations:** Framer Motion
+- **Forms:** React Hook Form + Zod validation
+- **Backend:** Firebase (planned)
+- **Deployment:** Vercel (planned)
+
+## 🚀 Getting Started
+
+### Prerequisites
+- Node.js 18+ 
+- npm or yarn
+
+### Installation
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/habibshahid2013/techsess-website.git
+   cd techsess-website
+   ```
+
+2. **Install dependencies**
+   ```bash
+   npm install
+   ```
+
+3. **Start development server**
+   ```bash
+   npm run dev
+   ```
+
+4. **Open in browser**
+   ```
+   http://localhost:3000
+   ```
+
+## 📁 Project Structure
+
+```
+techsess-website/
+├── src/
+│   ├── app/                    # Next.js app router
+│   │   ├── layout.tsx         # Root layout with Navbar/Footer
+│   │   ├── page.tsx           # Homepage
+│   │   └── globals.css        # Global styles
+│   ├── components/
+│   │   ├── home/              # Homepage sections
+│   │   ├── layout/            # Navbar, Footer
+│   │   ├── shared/            # Reusable components
+│   │   └── ui/                # shadcn/ui components
+│   ├── lib/                   # Utilities and configs
+│   └── content/               # Static content
+├── styles/
+│   └── design-tokens.css      # Custom CSS variables
+└── public/                    # Static assets
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🎨 Customization
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Design Tokens
+All colors, typography, and spacing are defined in `styles/design-tokens.css`:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```css
+:root {
+  --electric-blue: #007BFF;
+  --deep-charcoal: #111111;
+  --accent-yellow: #FFD700;
+  /* ... more tokens */
+}
+```
 
-## Learn More
+### Adding New Pages
+1. Create a new folder in `src/app/`
+2. Add `page.tsx` with your content
+3. Update navigation in `src/components/layout/Navbar.tsx`
 
-To learn more about Next.js, take a look at the following resources:
+## 📋 Roadmap
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Phase 1: Foundation ✅
+- [x] Project setup and design system
+- [x] Homepage with all sections
+- [x] Responsive design and animations
+- [x] SEO optimization
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### Phase 2: Content & Pages 🚧
+- [ ] About page with personal story
+- [ ] Services page with detailed offerings
+- [ ] Community page with signup form
+- [ ] Book Consultation page
+- [ ] Contact page
 
-## Deploy on Vercel
+### Phase 3: Backend & Forms 🚧
+- [ ] Firebase integration
+- [ ] Email subscription API
+- [ ] Contact form handling
+- [ ] Consultation booking system
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Phase 4: Deployment & Launch 🚧
+- [ ] Vercel deployment
+- [ ] Custom domain setup
+- [ ] Analytics integration
+- [ ] Performance optimization
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 🤝 Contributing
+
+This is a personal brand website, but suggestions and improvements are welcome!
+
+1. Fork the repository
+2. Create a feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
+
+## 📝 License
+
+This project is private and proprietary to Hassan Shahid / Tech-sess.
+
+## 📞 Contact
+
+**Hassan Shahid**  
+- Website: [techsess.com](https://techsess.com) (coming soon)
+- Email: hassan@techsess.com
+- LinkedIn: [linkedin.com/in/hassanshahid](https://linkedin.com/in/hassanshahid)
+
+---
+
+**Built with ❤️ for diversity in tech**
