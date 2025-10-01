@@ -1,0 +1,87 @@
+// content/services.json
+{
+  "techEducation": {
+    "title": "Tech Education & Training",
+    "description": "Comprehensive tech education courses tailored for under-represented communities, covering everything from basic programming to advanced software development.",
+    "features": [
+      "Hands-on coding projects",
+      "Industry-relevant curriculum",
+      "Mentorship support",
+      "Career guidance",
+      "Portfolio development"
+    ],
+    "price": "$200 - $500 per course",
+    "ctaText": "Inquire About Courses",
+    "ctaLink": "/contact?subject=education"
+  },
+  "consulting": {
+    "title": "One-on-One Consulting",
+    "description": "Personalized guidance to navigate your tech career, whether you're just starting out or looking to advance to the next level.",
+    "features": [
+      "Career strategy planning",
+      "Resume and portfolio review",
+      "Interview preparation",
+      "Salary negotiation",
+      "Industry networking"
+    ],
+    "price": "$100 - $200 per hour",
+    "ctaText": "Book a Session",
+    "ctaLink": "/book-consultation"
+  },
+  "pipelinePrograms": {
+    "title": "Industry Pipeline Programs",
+    "description": "Structured programs including coding bootcamps, mentorship initiatives, and internship placements designed to create pathways into tech.",
+    "features": [
+      "Intensive coding bootcamps",
+      "Industry mentorship",
+      "Internship placements",
+      "Job placement assistance",
+      "Ongoing support network"
+    ],
+    "price": "$500 - $1000 per program",
+    "ctaText": "Learn More",
+    "ctaLink": "/contact?subject=pipeline"
+  },
+  "sponsorship": {
+    "title": "Sponsorship Partnerships",
+    "description": "Partner with Tech-sess to support diversity initiatives and make a meaningful impact in creating opportunities for underrepresented communities.",
+    "features": [
+      "Program sponsorship opportunities",
+      "Scholarship funding",
+      "Event partnerships",
+      "Brand visibility",
+      "Impact reporting"
+    ],
+    "price": "$5,000 - $10,000 per partnership",
+    "ctaText": "Become a Sponsor",
+    "ctaLink": "/contact?subject=sponsorship"
+  },
+  "workshops": {
+    "title": "Diversity & Inclusion Workshops",
+    "description": "Engaging workshops for organizations looking to build more inclusive tech teams and create welcoming environments for diverse talent.",
+    "features": [
+      "Team building exercises",
+      "Bias awareness training",
+      "Inclusive hiring practices",
+      "Cultural competency",
+      "Action planning"
+    ],
+    "price": "$50 - $100 per workshop",
+    "ctaText": "Schedule a Workshop",
+    "ctaLink": "/contact?subject=workshop"
+  },
+  "collaboration": {
+    "title": "Collaboration Opportunities",
+    "description": "Strategic partnerships to advance diversity in tech through joint initiatives, research projects, and community building efforts.",
+    "features": [
+      "Joint research projects",
+      "Community initiatives",
+      "Resource sharing",
+      "Cross-promotion",
+      "Long-term partnerships"
+    ],
+    "price": "$1,000 - $5,000 per collaboration",
+    "ctaText": "Partner With Us",
+    "ctaLink": "/contact?subject=collaboration"
+  }
+}

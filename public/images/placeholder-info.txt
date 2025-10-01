@@ -1,0 +1,7 @@
+// Create placeholder images using CSS gradients
+// This is a temporary solution until real images are added
+
+// For hassan-hero.jpg - Professional headshot placeholder
+// For hassan-mission.jpg - Working with diverse group placeholder
+
+// These will be replaced with actual images later

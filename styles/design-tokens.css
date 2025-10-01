@@ -1,0 +1,100 @@
+/* TECH-SESS DESIGN TOKENS */
+
+/* Primary Colors */
+:root {
+  --electric-blue: #007BFF;
+  --electric-blue-hover: #0056b3;
+  --electric-blue-light: #66b3ff;
+
+  /* Neutrals */
+  --deep-charcoal: #111111;
+  --charcoal-gray: #2a2a2a;
+  --warm-white: #F9F9F9;
+  --pure-white: #FFFFFF;
+
+  /* Accent */
+  --accent-yellow: #FFD700;
+  --accent-yellow-hover: #e6c200;
+
+  /* Semantic Colors */
+  --success: #10b981;
+  --error: #ef4444;
+  --warning: #f59e0b;
+  --info: #3b82f6;
+
+  /* Gradients */
+  --hero-gradient: linear-gradient(135deg, #007BFF 0%, #0056b3 100%);
+  --cta-gradient: linear-gradient(90deg, #007BFF 0%, #FFD700 100%);
+
+  /* Typography Scale */
+  --text-xs: 0.75rem;      /* 12px */
+  --text-sm: 0.875rem;     /* 14px */
+  --text-base: 1rem;       /* 16px */
+  --text-lg: 1.125rem;     /* 18px */
+  --text-xl: 1.25rem;      /* 20px */
+  --text-2xl: 1.5rem;      /* 24px */
+  --text-3xl: 1.875rem;    /* 30px */
+  --text-4xl: 2.25rem;     /* 36px */
+  --text-5xl: 3rem;        /* 48px */
+  --text-6xl: 3.75rem;     /* 60px */
+  --text-7xl: 4.5rem;      /* 72px */
+
+  /* Line Heights */
+  --leading-tight: 1.25;
+  --leading-normal: 1.5;
+  --leading-relaxed: 1.75;
+
+  /* Spacing System (8px base unit) */
+  --spacing-1: 0.5rem;   /* 8px */
+  --spacing-2: 1rem;     /* 16px */
+  --spacing-3: 1.5rem;   /* 24px */
+  --spacing-4: 2rem;     /* 32px */
+  --spacing-5: 2.5rem;   /* 40px */
+  --spacing-6: 3rem;     /* 48px */
+  --spacing-8: 4rem;     /* 64px */
+  --spacing-10: 5rem;    /* 80px */
+  --spacing-12: 6rem;    /* 96px */
+  --spacing-16: 8rem;    /* 128px */
+
+  /* Shadows & Effects */
+  --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+  --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+  --shadow-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
+  --shadow-2xl: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+
+  /* Border Radius */
+  --border-radius-sm: 0.375rem;   /* 6px */
+  --border-radius-md: 0.5rem;     /* 8px */
+  --border-radius-lg: 0.75rem;    /* 12px */
+  --border-radius-xl: 1rem;       /* 16px */
+  --border-radius-2xl: 1.5rem;    /* 24px */
+
+  /* Animation Tokens */
+  --transition-fast: 150ms cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-base: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-slow: 350ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Utility Classes */
+.text-electric-blue { color: var(--electric-blue); }
+.bg-electric-blue { background-color: var(--electric-blue); }
+.border-electric-blue { border-color: var(--electric-blue); }
+
+.text-deep-charcoal { color: var(--deep-charcoal); }
+.bg-deep-charcoal { background-color: var(--deep-charcoal); }
+
+.text-accent-yellow { color: var(--accent-yellow); }
+.bg-accent-yellow { background-color: var(--accent-yellow); }
+
+.bg-hero-gradient { background: var(--hero-gradient); }
+.bg-cta-gradient { background: var(--cta-gradient); }
+
+/* Typography Utilities */
+.font-heading { font-family: var(--font-poppins), sans-serif; }
+.font-body { font-family: var(--font-inter), sans-serif; }
+
+/* Animation Utilities */
+.transition-fast { transition-duration: var(--transition-fast); }
+.transition-base { transition-duration: var(--transition-base); }
+.transition-slow { transition-duration: var(--transition-slow); }
