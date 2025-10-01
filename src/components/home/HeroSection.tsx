@@ -1,7 +1,7 @@
 'use client';
 
 import { motion } from 'framer-motion';
-import Image from 'next/image';
+// import Image from 'next/image'; // Removed unused import
 import Link from 'next/link';
 import { ChevronDown } from 'lucide-react';
 import { Button } from '@/components/ui/button';
@@ -49,7 +49,7 @@ const HeroSection = () => {
               transition={{ duration: 0.6, delay: 0.4 }}
               className="text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold font-heading leading-tight mb-6"
             >
-              Hi, I'm Hassan Shahid —{' '}
+              Hi, I&apos;m Hassan Shahid —{' '}
               <span className="text-accent-yellow">Building Pathways</span>{' '}
               for Underrepresented Communities in Tech
             </motion.h1>
@@ -61,7 +61,7 @@ const HeroSection = () => {
               transition={{ duration: 0.6, delay: 0.6 }}
               className="text-lg md:text-xl lg:text-2xl text-blue-100 leading-relaxed mb-8 max-w-2xl"
             >
-              Through advocacy, education, and strategic partnerships, I'm reshaping the tech landscape one opportunity at a time.
+              Through advocacy, education, and strategic partnerships, I&apos;m reshaping the tech landscape one opportunity at a time.
             </motion.p>
 
             {/* CTA Buttons */}

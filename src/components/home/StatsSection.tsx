@@ -96,7 +96,7 @@ const StatsSection = () => {
             Making an Impact
           </h2>
           <p className="text-xl text-gray-300 max-w-2xl mx-auto">
-            Together, we're building a more diverse and inclusive tech industry.
+            Together, we&apos;re building a more diverse and inclusive tech industry.
           </p>
         </motion.div>
 

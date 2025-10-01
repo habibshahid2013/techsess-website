@@ -1,7 +1,7 @@
 'use client';
 
 import { motion } from 'framer-motion';
-import Image from 'next/image';
+// import Image from 'next/image'; // Removed unused import
 import Link from 'next/link';
 import { Button } from '@/components/ui/button';
 
@@ -47,8 +47,8 @@ const MissionSection = () => {
                 viewport={{ once: true }}
                 transition={{ duration: 0.6, delay: 0.4 }}
               >
-                Tech-sess exists to change that narrative. We believe that diversity isn't 
-                just a moral imperative—it's a competitive advantage. When we create 
+                Tech-sess exists to change that narrative. We believe that diversity isn&apos;t 
+                just a moral imperative—it&apos;s a competitive advantage. When we create 
                 pathways for underrepresented talent, we unlock innovation, creativity, 
                 and solutions that benefit everyone.
               </motion.p>
@@ -60,10 +60,10 @@ const MissionSection = () => {
                 transition={{ duration: 0.6, delay: 0.5 }}
                 className="bg-electric-blue/5 p-6 rounded-lg border-l-4 border-electric-blue"
               >
-                <p className="text-lg font-medium text-deep-charcoal italic">
-                  "Through three core pillars—representation, pipeline opportunities, 
-                  and strategic partnerships—we're creating lasting change."
-                </p>
+                  <p className="text-lg font-medium text-deep-charcoal italic">
+                    &ldquo;Through three core pillars—representation, pipeline opportunities, 
+                    and strategic partnerships—we&apos;re creating lasting change.&rdquo;
+                  </p>
               </motion.div>
 
               <motion.div
@@ -109,7 +109,7 @@ const MissionSection = () => {
               className="absolute -bottom-6 -left-6 bg-white rounded-xl p-6 shadow-lg max-w-sm"
             >
               <div className="text-center">
-                <div className="text-4xl font-bold text-electric-blue mb-2">"</div>
+                <div className="text-4xl font-bold text-electric-blue mb-2">&ldquo;</div>
                 <p className="text-sm text-charcoal-gray italic">
                   Every person deserves a fair shot at success in tech, regardless of their background.
                 </p>

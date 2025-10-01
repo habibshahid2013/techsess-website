@@ -90,7 +90,7 @@ const ServicesPreview = () => {
             How I Can Help You
           </h2>
           <p className="text-xl text-charcoal-gray max-w-3xl mx-auto">
-            Whether you're an individual looking to break into tech or an organization 
+            Whether you&apos;re an individual looking to break into tech or an organization 
             committed to building diverse teams, I offer comprehensive solutions to 
             advance diversity and inclusion in the tech industry.
           </p>

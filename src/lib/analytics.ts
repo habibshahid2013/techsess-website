@@ -22,7 +22,7 @@ export const trackPageView = (url: string) => {
 };
 
 // Custom events to track:
-export const trackSubscribe = (email: string) => {
+export const trackSubscribe = (_email: string) => {
   trackEvent('subscribe', 'engagement', 'email_signup');
 };
 
