@@ -1,6 +1,13 @@
 // lib/analytics.ts
 export const GA_TRACKING_ID = process.env.NEXT_PUBLIC_GA_ID;
 
+// Declare minimal gtag typing on window to satisfy TypeScript in the browser
+declare global {
+  interface Window {
+    gtag?: (...args: unknown[]) => void;
+  }
+}
+
 // Event tracking
 export const trackEvent = (action: string, category: string, label?: string, value?: number) => {
   if (typeof window !== 'undefined' && window.gtag) {
